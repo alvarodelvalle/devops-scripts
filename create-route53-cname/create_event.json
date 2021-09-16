@@ -1,0 +1,22 @@
+{
+    "Records": [
+        {
+            "EventSource": "aws:sns",
+            "EventVersion": "1.0",
+            "EventSubscriptionArn": "arn:aws:sns:us-east-1:322521298048:RequestRoute53CNAME:abdb15bf-ce6a-4254-aaa0-eb90e623008e",
+            "Sns": {
+                "Type": "Notification",
+                "MessageId": "bea8e90a-d030-52d9-a64c-b0634b957301",
+                "TopicArn": "arn:aws:sns:us-east-1:322521298048:RequestRoute53CNAME",
+                "Subject": "AWS CloudFormation custom resource request",
+                "Message": "{\"RequestType\":\"Delete\",\"ServiceToken\":\"arn:aws:sns:us-east-1:322521298048:RequestRoute53CNAME\",\"ResponseURL\":\"https://cloudformation-custom-resource-response-useast1.s3.amazonaws.com/arn%3Aaws%3Acloudformation%3Aus-east-1%3A728211768339%3Astack/cloudfrontdns/afe8bfb0-af9b-11eb-aaef-0e0ada131a5b%7CRoute53DNSRecordWildcardCnameClienWK%7C75f15e22-d82e-4120-8c41-5a4bf9897f9b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20210715T021149Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7199&X-Amz-Credential=AKIA6L7Q4OWT5RZXSXPW%2F20210715%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=27649f2f4ef3d07e57b3773945fbda9ed543b9bc65713d7d532eded05db4e6e4\",\"StackId\":\"arn:aws:cloudformation:us-east-1:728211768339:stack/cloudfrontdns/afe8bfb0-af9b-11eb-aaef-0e0ada131a5b\",\"RequestId\":\"75f15e22-d82e-4120-8c41-5a4bf9897f9b\",\"LogicalResourceId\":\"Route53DNSRecordWildcardCnameClienWK\",\"PhysicalResourceId\":\"cloudfrontdns-Route53DNSRecordWildcardCnameClienWK-8GSJX4REARBM\",\"ResourceType\":\"Custom::CNAME\",\"ResourceProperties\":{\"ServiceToken\":\"arn:aws:sns:us-east-1:322521298048:RequestRoute53CNAME\",\"Target\":\"d2vc5gdoygwebl.cloudfront.net\",\"Source\":\"www.wk.policymapdev.com\"}}",
+                "Timestamp": "2021-07-15T02:11:49.106Z",
+                "SignatureVersion": "1",
+                "Signature": "o1qD4v/5z1ZYmLoB9WnYsACFPz46t6v25J7yqr+92GhcQsOgg/ix7sZgxDmrH/iwagMJouydV9qOAY9lcCcCIEYbx3mV65guGakLbWO8MACMvNN8CSoEUnCh8+Wug8ku/nKOfX8za+lW9hCAcr+XFWvrPIp6Km6M/cXu3ycknn4CF1xs4qF7GG6RntNxCvrW7IUPKPQPkh4SMYBfu8XlZakSxwuLvuq1SRQzVpbWDhLmuhzbfzz+MMjM0kWAAnl5dKd3d5OVBUbviWwuGkkCtl16afrL3PPNZ5D1+vVO5wpsT4gM9r5gjr4+RKwcdcUgG0cr6wKw1Aue3MAa0iIxig==",
+                "SigningCertUrl": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+                "UnsubscribeUrl": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:322521298048:RequestRoute53CNAME:abdb15bf-ce6a-4254-aaa0-eb90e623008e",
+                "MessageAttributes": {}
+            }
+        }
+    ]
+}

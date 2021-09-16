@@ -1,0 +1,17 @@
+Transform: AWS::Serverless-2016-10-31
+Resources:
+  CreateRoute53CNAME:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: function.lambda_handler
+      CodeUri: .
+      Runtime: python3.8
+      Policies:
+        - AWSLambdaBasicExecutionRole
+        - Statement:
+          - Effect: Allow
+            Action:
+              - route53:ChangeResourceRecordSets
+            Resource: arn:aws:route53:::hostedzone/*

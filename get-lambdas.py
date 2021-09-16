@@ -224,9 +224,9 @@ def main():
 
             except ClientError as e:
                 raise e
+
     with open('GFH-Functions.txt', 'w') as f:
-        for item in gh_functions:
-            f.write("%s\n" % item)
+        f.write(json.dumps(gh_functions))
     return org_functions
 
 
